@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1753188384804126}
+  m_IsPrefabAsset: 1
+--- !u!1 &1753188384804126
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4905329356290948}
+  - component: {fileID: 114389250850441088}
+  m_Layer: 0
+  m_Name: Textarea
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4905329356290948
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1753188384804126}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114389250850441088
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1753188384804126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9e0ef1eb9d09d24b864b1d966e0d4e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  editMode: 0
+  debug: 
+  textarea:
+    data:
+      active: 1
+      name: 
+      GUIContent:
+        m_Text: Test
+        m_Image: {fileID: 0}
+        m_Tooltip: 
+    geometry:
+      depth: -1
+      scroll:
+        ScrollFollowBranch: 0
+        Mode: 1
+        Edge: 1
+        elementScrollModeStyles: []
+      textareaBody:
+        position:
+          RelX: 1
+          x: 0.69
+          RelY: 1
+          y: 0.17
+          XStack: 0
+          YStack: 0
+          XFill: 0
+          YFill: 0
+          xMirror: 0
+          yMirror: 0
+          xFollowBranch: 0
+          yFollowBranch: 0
+          pivot: 0
+          pivotFollowBranch: 0
+          xStick: 0
+          yStick: 0
+        size:
+          wFollowBranch: 0
+          relWidth: 1
+          width: 0.5
+          wFitChildren: 0
+          hFollowBranch: 0
+          relHeight: 1
+          height: 0.5
+          hFitChildren: 0
+          hLimits:
+            min: 0
+            max: 0
+            hideBeforeMin: 0
+            hideAfterMax: 0
+          wLimits:
+            min: 0
+            max: 0
+            hideBeforeMin: 0
+            hideAfterMax: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+      textareaContent:
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+      bodyScrollViewVector: {x: 0, y: 0}
+      objTextarea: 
+    style:
+      bodySkinFollowBranch: 0
+      bodySkin: {fileID: 0}
+      contentSkinFollowBranch: 0
+      contentSkin: {fileID: 11400000, guid: 8c037c4379f2ea541a24afd7ac3eafb6, type: 2}
+    structure:
+      tabParent: {fileID: 0}
